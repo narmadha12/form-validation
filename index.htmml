@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Form Validation</title>
+</head>
+<body>
+ 
+<div class="container">
+<div class="header">
+<h2>Create Account</h2>
+</div>
+<form id="form" class="form">
+<div class="form-control">
+<label for="username">Username</label>
+<input type="text" placeholder="narmadha" id="username" />
+<i class="fas fa-check-circle"></i>
+<i class="fas fa-exclamation-circle"></i>
+<small>Error message</small>
+</div>
+<div class="form-control">
+<label for="username">Gender</label>
+<input type="radio" placeholder="Gender" id="male" />
+<label for="username">Male</label>
+<input type="radio" placeholder="Gender" id="female" />
+<label for="username">Female</label>
+<i class="fas fa-check-circle"></i>
+<i class="fas fa-exclamation-circle"></i>
+<small>Error message</small>
+</div>
+<div class="form-control">
+<label for="username">DOB</label>
+<input type="date" placeholder="" id="date "/>
+<i class="fas fa-check-circle"></i>
+<i class="fas fa-exclamation-circle"></i>
+<small>Error message</small>
+</div>
+<div class="form-control">
+<label for="username">Mobile no</label>
+<input type="no" placeholder="" id="no"/>
+<i class="fas fa-check-circle"></i>
+<i class="fas fa-exclamation-circle"></i>
+<small>Error message</small>
+</div>
+<div class="form-control">
+<label for="username">Address</label>
+<input type="text" placeholder="" id="text"/>
+<i class="fas fa-check-circle"></i>
+<i class="fas fa-exclamation-circle"></i>
+<small>Error message</small>
+</div>
+<div class="form-control">
+<label for="username">Email</label>
+<input type="email" placeholder="narmadha@gmail.com" id="email" />
+<i class="fas fa-check-circle"></i>
+<i class="fas fa-exclamation-circle"></i>
+<small>Error message</small>
+</div>
+<div class="form-control">
+<label for="username">Aadhar no</label>
+<input type="no" placeholder="" id="no" />
+<i class="fas fa-check-circle"></i>
+<i class="fas fa-exclamation-circle"></i>
+<small>Error message</small>
+</div>
+<div class="form-control">
+<label for="username">Password</label>
+<input type="password" placeholder="Password" id="password"/>
+<i class="fas fa-check-circle"></i>
+<i class="fas fa-exclamation-circle"></i>
+<small>Error message</small>
+</div>
+<div class="form-control">
+<label for="username">Password check</label>
+<input type="password" placeholder="Password " id="password2"/>
+<i class="fas fa-check-circle"></i>
+<i class="fas fa-exclamation-circle"></i>
+<small>Error message</small>
+</div>
+<button>Submit</button>
+</form>
+</div>
+
+
+<!-- SOCIAL PANEL HTML -->
+<div class="social-panel-container">
+<div class="social-panel">
+<p>Created with <i class="fa fa-heart"></i> by
+<a target="_blank" href="https://florin-pop.com">Florin Pop</a></p>
+<button class="close-btn"><i class="fas fa-times"></i></button>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
